@@ -1,0 +1,28 @@
+.input-expenses__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    text-align: left;
+  }
+  
+  .input-expenses__control label {
+    font-weight: bold;
+    margin-bottom: 0.2rem;
+    display: block;
+  }
+  
+  .input-expenses__control input {
+    /* font: inherit; */
+    padding: 0.5rem;
+    border-radius: 6px;
+    background-color: rgba(240, 248, 255, 0.575);
+    border: 0.5px solid rgba(255, 255, 255, 0.382);
+    width: 20rem;
+    max-width: 100%;
+  }
+  
+  .input-expenses__actions {
+    text-align: right;
+    display: flex;
+  }
