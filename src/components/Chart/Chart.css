@@ -6,4 +6,11 @@
     display: flex;
     justify-content: space-around;
     height: 10rem;
+    width: 60rem;
+    max-width: 95%;
+    margin: auto;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    
   }

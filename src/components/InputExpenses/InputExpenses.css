@@ -1,17 +1,17 @@
 .input-expenses {
-
     background-color: #B7D6FF;
     padding: 1rem;
     margin: 2rem auto;
+    /* width: 50rem; */
     width: 50rem;
-    
+    max-width: 95%;
     border-radius: 5px;
     text-align: center;
     box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+
 }
   
   .input-expenses button {
@@ -23,6 +23,7 @@
     color: white;
     border-radius: 10px;
     margin-right: 1rem;
+    
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
@@ -45,4 +46,4 @@
   .input-expenses button.alternative:active {
     background-color: #00968c;
   }
-
+ 

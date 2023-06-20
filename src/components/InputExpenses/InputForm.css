@@ -4,6 +4,7 @@
     gap: 1rem;
     margin-bottom: 2rem;
     text-align: left;
+    flex-direction: row;
   }
   
   .input-expenses__control label {
@@ -25,4 +26,28 @@
   .input-expenses__actions {
     text-align: right;
     display: flex;
+    justify-content: flex-end;
+
   }
+  @media all and (min-width: 0px) and (max-width: 768px){
+    .input-expenses__controls{
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+    }
+    
+  }
+  @media all and (min-width: 769px) and (max-width: 1024px){
+    .input-expenses__controls{
+      flex-direction: row;
+      align-items: center;
+      justify-content: flex-start;
+    }
+   
+}
+/* @media all and (max-width: 1025px){
+  .input-expenses__controls{
+    flex-direction: row;
+   
+  }
+} */
